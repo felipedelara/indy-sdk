@@ -17,6 +17,8 @@ export POD_FILE_NAME=${package}.tar.gz
 
 if [ -z "${OPENSSL_DIR}" ]; then
     export OPENSSL_DIR=/usr/local/Cellar/openssl/1.0.2q
+    export EVERNYM_REPO_KEY=~/Documents/EvernymRepo
+    export LIBINDY_POD_VERSION=2.0.0
 fi
 
 echo "Build IOS POD started..."
